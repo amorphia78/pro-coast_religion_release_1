@@ -1,0 +1,7 @@
+## Suppression check
+
+Conventional benchmarks for interpreting effect sizes were developed for zero-order Pearson correlations rather than for partial regression coefficients. Reading a standardised β against them is conservative so long as there is no suppression: partialling out a correlated covariate ordinarily shrinks a coefficient relative to the zero-order association, so the β understates the raw association that the benchmarks describe. Suppression is the exception, inflating |β| beyond |r| or reversing its sign, and would invalidate the claim.
+
+We therefore compared, for every predictor in every specified-prior model, the zero-order correlation with CPEB in that model's own complete-case sample against the model's posterior median β, and computed variance inflation factors for the fixed-effects design (see the table below). No predictor showed suppression. Where either coefficient reached 0.10 — the lower bound of the benchmarks at issue — the β was of the same sign as, and no larger in magnitude than, the corresponding zero-order correlation. The remaining predictors had both |r| and |β| below 0.10, so no benchmark reading turns on them. The largest variance inflation factor across all models was 1.14, far below any conventional cause for concern.
+
+We accordingly interpret the standardised βs against correlation-based benchmarks, treating that reading as conservative.
